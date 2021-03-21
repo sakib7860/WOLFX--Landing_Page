@@ -1,0 +1,57 @@
+@media screen and (max-width: 768px){
+    .main-text h1{
+        font-size: 92px;   
+        line-height: 80px;
+     }
+
+     .main-text p{
+         font-size: 13px;
+         line-height: 15px;
+     }
+
+     .main-text button{
+         padding: 5px 10px;
+         position: absolute;
+         top: 78%;
+         left: 50%;
+         transform: translate(-50%, -78%);
+     }
+
+     nav .nav-links li a{
+         display: none;
+     }
+
+     .logo{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         margin: 0 auto;
+     }
+     
+     .intro-text {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .main-text h1{
+        font-size: 82px;   
+        line-height: 70px;
+     }
+     .main-text p{
+        font-size: 10px;
+        line-height: 15px;
+    }
+     .main-text button{
+        padding: 10px 20px;
+        position: absolute;
+        font-size: 13px;
+        top: 79%;
+        left: 50%;
+        transform: translate(-50%, -79%);
+    }
+    .intro-text {
+        font-size: 1.3rem;
+    }
+
+}
